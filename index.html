@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECNOVA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>TECNOVA</title></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="toggleSection('comun')">COMUN</a></li>
+                <li><a href="#" onclick="toggleSection('oro')">ORO</a></li>
+                <li><a href="#" onclick="toggleSection('platino')">PLATINO</a></li>
+                <li><a href="#" onclick="toggleSection('sobre nosotros')">SOBRE NOSOTROS</a></li>
+            </ul>
+        </nav>
+        <div class="search">
+            <input type="text" placeholder="Buscar...">
+            <button>BUSCAR</button>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Sección COMUN -->
+        <section id="comun" class="content" style="display:none;">
+            <h2>Paquete Básico de Gestión Digital</h2>
+            <p>Descripción: Este paquete introduce herramientas digitales simples para la gestión de cultivos y recursos.</p>
+            <p>Características:
+                Plataforma de seguimiento de cosechas.
+                Alertas meteorológicas básicas.
+                Acceso a un sistema de inventario para registrar productos y suministros.
+                Beneficios: Mejora la productividad mediante una mejor planificación y uso de recursos.
+                Costo Aproximado: Bajo, accesible para pequeños agricultores</p>
+        </section>
+
+        <!-- Sección ORO -->
+        <section id="oro" class="content" style="display:none;">
+            <h2>Paquete de Comercialización Digital</h2>
+            <p>Descripción: Enfocado en facilitar la venta directa de productos a mercados locales e internacionales..</p>
+            <p>Características:
+                Creación de tiendas virtuales personalizadas.
+                Herramientas de marketing digital y publicidad.
+                Plataforma de gestión de clientes y logística.
+                Beneficios: Elimina intermediarios y amplía los mercados para aumentar las ganancias.
+                Costo Aproximado: Medio-Alto, ideal para agricultores o pequeñas empresas con productos diferenciados.</p>
+        </section>
+
+        <!-- Sección PLATINO -->
+        <section id="sobre nosotros" class="content" style="display:none;">
+            <h2>Unos pequeños detalles necesarios</h2>
+            <p>Quienes somos y el porque.</p>
+            <p>Transformacion:
+                Somos un equipo apasionado por la tecnología y el futuro. En TECNOVA, estamos enfocados en explorar y potenciar el impacto 
+                de la inteligencia artificial en sectores clave como la salud, educación, industria, y empleabilidad. Nuestro equipo multidisciplinario
+                está formado por expertos en tecnología, ingenieros de software, y analistas de datos, 
+                quienes juntos buscan llevar soluciones avanzadas de IA a cada rincón del mercado.</p>
+        </section>
+
+        <section id="platino" class="content" style="display:none;">
+            <h2>Paquete Integral de Transformación Digital</h2>
+            <p>Solución completa para transformar digitalmente las operaciones de una empresa o comunidad rural.</p>
+            <p>Características:
+                Todos los servicios de los paquetes anteriores. Capacitación personalizada para agricultores y 
+                empleados en habilidades digitales. Integración con herramientas de gestión avanzada y tecnología de IoT (Internet de las Cosas) 
+                para monitoreo remoto. Beneficios: Mejora radicalmente la productividad y abre múltiples oportunidades de negocio. Costo Aproximado: Alto, adecuado 
+                para cooperativas o asociaciones rurales con alto volumen de producción.</p>
+        </section>
+
+        <section id="carousel">
+            <div class="carousel-slide">
+                <img src="imagenes/imagen1.jpg" alt="Imagen 1">
+                <img src="imagenes/imagen2.jpg" alt="Imagen 2">
+                <img src="imagenes/imagen3.jpg" alt="Imagen 3">
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+    <footer style="background-color: #ffffffcc; padding: 40px; color: black;">
+        <div style="display: flex; justify-content: space-between; max-width: 1200px; margin: auto;">
+            <div>
+                <h4>Contacto</h4>
+                <p>Teléfono: +904397748</p>
+                <p>Email: tecnova@gmail.com</p>
+                <p>Dirección: Marmol 3010</p>
+            </div>
+            <div>
+                <h4>Sobre Nosotros</h4>
+                <p>Somos una empresa dedicada a las soluciones rurales</p>
+            </div>
+            <div>
+                <h4>Servicios</h4>
+                <p>comun</p>
+                <p>oro</p>
+                <p>platino</p>
+            </div>
+            <div>
+                <h4>Redes Sociales</h4>
+                <p><a href="#">Facebook</a></p>
+                <p><a href="#">Instagram</a></p>
+                <p><a href="#">LinkedIn</a></p>
+            </div>
+        </div>
+    </footer>    
+
+</body>
+</html>

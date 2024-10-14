@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+/*Header*/
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffffcc;
+    z-index: 10;
+}
+
+.logo h1 {
+    font-family: 'Georgia', serif;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.search button {
+    padding: 5px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.user-options a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    margin-left: 20px;
+}
+
+.user-options a:hover {
+    text-decoration: underline;
+}
+
+/* carrusel */
+#carousel {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    display: flex;
+    width: 320%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+/* Estilo para las secciones de contenido */
+.content {
+    padding: 100px;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.text-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+html, body {
+    height: 100%;
+    overflow-y: scroll; 
+}
